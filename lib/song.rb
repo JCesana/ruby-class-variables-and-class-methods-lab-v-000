@@ -25,6 +25,7 @@ class Song
     @@genre.uniq.length  
   end 
   
+  
   def self.artists 
     @artists.uniq 
   end 
